@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  width: 95%;
+  border: none;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-bottom-color: blue;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(81, 46, 255);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  width: 100px;
+  border-radius: 50px;
+  align-content: center;
+}
+
+a {
+  color: rgb(34, 74, 255);
+  text-decoration: none;
+}
